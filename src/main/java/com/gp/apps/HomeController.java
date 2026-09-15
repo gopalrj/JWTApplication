@@ -13,6 +13,6 @@ public class HomeController {
     @GetMapping("/hi")
     public String test() {
         this.logger.warn("method is called...");
-        return "Welcome to Ashok IT..!!";
+        return "Welcome to GPS..!!";
     }
 }
